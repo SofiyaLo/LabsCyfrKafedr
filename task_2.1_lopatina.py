@@ -7,7 +7,7 @@ increase = 0.05  # Ежемесячный рост цен
 total = 0
 while True:
     money_capital -= spend - salary
-    if money_capital <= 0:
+    if money_capital < 0:
         break
     spend *= (1 + increase)
     total += 1
