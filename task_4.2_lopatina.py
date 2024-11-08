@@ -4,7 +4,6 @@ import json
 INPUT_FILENAME = "input.csv"
 OUTPUT_FILENAME = "output.json"
 
-row_list = []
 def task() -> None:
     with open(INPUT_FILENAME, 'r') as csv_data:
         row_list = [row for row in csv.DictReader(csv_data)]
