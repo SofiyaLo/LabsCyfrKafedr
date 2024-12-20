@@ -9,7 +9,7 @@ class Cake:
     """
     def __init__(self, type_of_cake: str, weight: Union[int, float]):
         """
-        Создание и подготовка к работе объекта "Стакан"
+        Создание и подготовка к работе объекта "Торт"
 
         :param type_of_cake: Вид торта
         :param weight: Вес кусочка
