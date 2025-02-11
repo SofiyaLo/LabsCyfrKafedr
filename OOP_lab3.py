@@ -23,10 +23,7 @@ class Book:
         if not isinstance(new_author, str):
             raise TypeError('Имя автора должно быть типа str')
         self._author = new_author
-
-    @property
-    def author(self):
-        return self._author
+        
 
     def __str__(self):
         return f"Книга {self.name}. Автор {self.author}"
